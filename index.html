@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trash2Treasure — Turning Waste into Worth</title>
+<meta name="description" content="Trash2Treasure turns waste and unused materials into useful, creative, handmade products. Shop upcycled home decor with 10% off your first order.">
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="Trash2Treasure logo" class="brand-mark">
+      <span class="brand-name">Trash2Treasure</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#why-us" class="nav-link">Why Us</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#offer" class="pill-btn nav-pill">10% off first order</a>
+    </nav>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner container">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Handmade in small batches, from things we'd have thrown away</p>
+      <h1 class="hero-title">From waste to <em>wonderful</em>.</h1>
+      <p class="hero-sub">We collect what's discarded — bottles, bulbs, cups, coconut shells — and rebuild it into something you'll actually want on a shelf.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Explore products</a>
+        <a href="#contact" class="btn btn-outline">Order now</a>
+      </div>
+    </div>
+
+    <div class="hero-gallery" aria-hidden="true">
+      <div class="hero-tile tile-1"><img src="images/product1.jpg" alt=""></div>
+      <div class="hero-tile tile-2"><img src="images/product3.jpg" alt=""></div>
+      <div class="hero-tile tile-3"><img src="images/product5.jpg" alt=""></div>
+      <div class="hero-tile tile-4"><img src="images/product2.jpg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <div class="about-tag">About us</div>
+    <p class="about-text">Trash2Treasure is an eco-friendly initiative that transforms waste and unused materials into useful and creative products. Our goal is to encourage reuse, reduce waste, and show that something considered useless can become something valuable.</p>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="why-us" id="why-us">
+  <div class="container">
+    <h2 class="section-title">Why Trash2Treasure</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-icon">🌱</span>
+        <h3>Eco friendly</h3>
+        <p>Reuse waste and reduce unnecessary waste headed for landfill.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">♻️</span>
+        <h3>Recycled materials</h3>
+        <p>Bottles, bulbs, cups and shells — given a second life instead of the bin.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">💡</span>
+        <h3>Creative ideas</h3>
+        <p>Simple waste, reimagined into something useful you'd choose to keep.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">💰</span>
+        <h3>Affordable</h3>
+        <p>Handmade products priced fairly, not marked up for the "eco" label.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="products" id="products">
+  <div class="container">
+    <h2 class="section-title">Our products</h2>
+    <p class="section-sub">Five pieces, five different waste streams. Each one handmade and photographed as-is.</p>
+
+    <div class="product-grid" id="productGrid">
+
+      <article class="product-card" data-name="CocoCraft Flower Vase" data-price="179">
+        <div class="badge">First order · 10% off</div>
+        <div class="product-media">
+          <img src="images/product1.jpg" alt="CocoCraft Flower Vase — coconut shell mosaic jar with fabric flowers">
+        </div>
+        <div class="product-body">
+          <h3>CocoCraft Flower Vase</h3>
+          <p class="product-desc">A glass jar wrapped edge to edge in coconut shell mosaic and finished with a jute collar — ready for your favourite stems.</p>
+          <div class="price-row">
+            <span class="price-old">₹199</span>
+            <span class="price-new">₹179</span>
+          </div>
+          <button class="btn btn-whatsapp order-btn">Order on WhatsApp</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Upcycled Cup Hanger" data-price="224">
+        <div class="badge">First order · 10% off</div>
+        <div class="product-media">
+          <img src="images/product2.jpg" alt="Upcycled Cup Hanger — hand-painted cups strung as a wind chime">
+        </div>
+        <div class="product-body">
+          <h3>Upcycled Cup Hanger</h3>
+          <p class="product-desc">Five hand-painted cups threaded on cord and hung from a wooden ring — catches the breeze on a balcony or porch.</p>
+          <div class="price-row">
+            <span class="price-old">₹249</span>
+            <span class="price-new">₹224</span>
+          </div>
+          <button class="btn btn-whatsapp order-btn">Order on WhatsApp</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Eco Bulb Terrarium" data-price="269">
+        <div class="badge">First order · 10% off</div>
+        <div class="product-media">
+          <img src="images/product3.jpg" alt="Eco Bulb Terrarium — a retired light bulb replanted as a mini terrarium">
+        </div>
+        <div class="product-body">
+          <h3>Eco Bulb Terrarium</h3>
+          <p class="product-desc">A retired light bulb, hollowed and sealed, holding a compact planting on a hand-painted base.</p>
+          <div class="price-row">
+            <span class="price-old">₹299</span>
+            <span class="price-new">₹269</span>
+          </div>
+          <button class="btn btn-whatsapp order-btn">Order on WhatsApp</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Bangle Wheel Stand" data-price="449">
+        <div class="badge">First order · 10% off</div>
+        <div class="product-media">
+          <img src="images/product4.jpg" alt="Bangle Wheel Stand — a takeaway tub fitted with bangle wheels and ice-cream stick spokes">
+        </div>
+        <div class="product-body">
+          <h3>Bangle Wheel Stand</h3>
+          <p class="product-desc">An empty biriyani tub fitted with two wheels built from old bangles and ice-cream stick spokes — a rolling catch-all for odds and ends.</p>
+          <div class="price-row">
+            <span class="price-old">₹100</span>
+            <span class="price-new">₹80</span>
+          </div>
+          <button class="btn btn-whatsapp order-btn">Order on WhatsApp</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-name="Bottlebloom" data-price="179">
+        <div class="badge">First order · 10% off</div>
+        <div class="product-media">
+          <img src="images/product5.jpg" alt="Bottlebloom — a plastic bottle cut and painted into a fox-face vase">
+        </div>
+        <div class="product-body">
+          <h3>Bottlebloom</h3>
+          <p class="product-desc">A plastic bottle cut and painted into a fox face, holding a spray of fabric blooms — playful on a windowsill or desk.</p>
+          <div class="price-row">
+            <span class="price-old">₹199</span>
+            <span class="price-new">₹179</span>
+          </div>
+          <button class="btn btn-whatsapp order-btn">Order on WhatsApp</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFER BANNER ============ -->
+<section class="offer" id="offer">
+  <div class="container offer-inner">
+    <h2>First order — get 10% off</h2>
+    <p>Your first order gets an exclusive 10% discount, automatically reflected in every product price above.</p>
+    <a href="#products" class="btn btn-primary">Shop now</a>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-sub">Questions, custom requests, or ready to order — reach us directly.</p>
+      <ul class="contact-list">
+        <li>📞 <a href="tel:+919345528913">93455 28913</a></li>
+        <li>📧 <a href="mailto:tnbronis@gmail.com">tnbronis@gmail.com</a></li>
+      </ul>
+      <a href="#" id="generalWhatsapp" class="btn btn-whatsapp">Chat with us on WhatsApp</a>
+    </div>
+
+    <form class="contact-form" id="orderForm">
+      <h3>Place an order</h3>
+      <label for="cf-name">Name</label>
+      <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+
+      <label for="cf-phone">Phone number</label>
+      <input type="tel" id="cf-phone" name="phone" placeholder="Your phone number" required>
+
+      <label for="cf-product">Select product</label>
+      <select id="cf-product" name="product" required>
+        <option value="" disabled selected>Choose a product</option>
+        <option value="CocoCraft Flower Vase (₹179)">CocoCraft Flower Vase — ₹179</option>
+        <option value="Upcycled Cup Hanger (₹224)">Upcycled Cup Hanger — ₹224</option>
+        <option value="Eco Bulb Terrarium (₹269)">Eco Bulb Terrarium — ₹269</option>
+        <option value="Bangle Wheel Stand (₹449)">Bangle Wheel Stand — ₹449</option>
+        <option value="Bottlebloom (₹179)">Bottlebloom — ₹179</option>
+      </select>
+
+      <label for="cf-qty">Quantity</label>
+      <input type="number" id="cf-qty" name="quantity" min="1" value="1" required>
+
+      <label for="cf-message">Message</label>
+      <textarea id="cf-message" name="message" rows="3" placeholder="Anything else we should know? (optional)"></textarea>
+
+      <button type="submit" class="btn btn-whatsapp full-width">Order on WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Trash2Treasure logo" class="brand-mark">
+      <div>
+        <div class="brand-name">Trash2Treasure</div>
+        <div class="footer-tagline">Turning Waste into Worth.</div>
+      </div>
+    </div>
+    <div class="footer-contact">
+      <span>93455 28913</span>
+      <span>tnbronis@gmail.com</span>
+    </div>
+    <div class="footer-copy">© 2026 Trash2Treasure. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
